@@ -25,7 +25,7 @@ class ImageSubscriber(Node):
   
 def main(args=None):
   rclpy.init(args=args)#初始化
-  image_subscriber = ImageSubscriber()#實體化pub
+  image_subscriber = ImageSubscriber()#實體化sub
   rclpy.spin(image_subscriber) #等待接收訊息
 
   
